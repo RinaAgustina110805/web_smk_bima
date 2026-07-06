@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berita - SMK Swasta Baabul Ilmil Marhami (BIMA)</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="logo.jpeg">
+<style>
+body{
+    padding-top:70px;
+    background:#f4f7fc;
+    font-family:Arial, sans-serif;
+}
+.navbar{
+    background:#0d47a1;
+    border:none;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+}
+.navbar-brand img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+}
+.navbar-nav > li > a{
+    color:white !important;
+    font-weight:bold;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+.dropdown-menu > li > a:hover{
+    background:#1565c0 !important;
+    color:white !important;
+}
+.navbar-toggle{
+    border:1px solid white;
+}
+.navbar-toggle .icon-bar{
+    background:white;
+}
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+    font-size:16px;
+    font-weight:bold;
+}
+.header-berita{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('galeri/gambarSekolah.jpeg');
+
+    background-size:cover;
+    background-position:center;
+
+    text-align:center;
+    color:white;
+    padding:120px 20px;
+}
+
+.header-berita h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.header-berita p{
+    font-size:20px;
+}
+
+.section{
+    padding:60px 0;
+}
+
+.berita-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    margin-bottom:30px;
+    transition:.3s;
+}
+
+.berita-card:hover{
+    transform:translateY(-8px);
+}
+.berita-card img{
+    width:100%;
+    height:250px;
+    object-fit:contain;
+    background:white;
+    padding:10px;
+}
+
+.berita-body{
+    padding:20px;
+}
+.berita-body h3{
+    color:#0d47a1;
+    font-weight:bold;
+    margin-top:0;
+}
+
+.btn-bima{
+    background:#0d47a1;
+    color:white;
+    border:none;
+    border-radius:25px;
+    padding:10px 20px;
+}
+
+.btn-bima:hover{
+    background:#1565c0;
+    color:white;
+}
+
+.modal-body img{
+    display:block;
+    width:50%;
+    max-width:250px;
+    height:auto;
+    margin:0 auto 20px;
+    border-radius:10px;
+}
+
+.modal-body p{
+    text-align:justify;
+    line-height:1.8;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:50px 0;
+    margin-top:40px;
+}
+
+footer img{
+    width:80px;
+}
+
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                <button type="button"
+                class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+<a class="navbar-brand" href="Index.html">
+            <img src="galeri/logo.jpeg">
+            SMK BIMA
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Profil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                    </ul>
+                </li>
+                <li><a href="Guru.html">Guru & Staf</a></li>
+                <li><a href="Berita.html">Berita</a></li>
+                <li><a href="Galeri.html">Galeri</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Selengkapnya <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Ekstrakurikuler.Html">ekstrakuler</a></li>
+                        <li><a href="PPDB.html">PPDB</a></li>
+                        <li><a href="Agenda sekolah.html">Agenda Sekolah</a></li>
+                    </ul>
+                </li>
+            </ul>
+</nav>
+
+<div class="running-text">
+<marquee>
+SELAMAT DATANG DI HALAMAN BERITA SMK SWASTA BAABUL ILMIL MARHAMI (BIMA)
+</marquee>
+</div>
+
+<div class="header-berita">
+<h1>BERITA SEKOLAH</h1>
+<p>Informasi dan Kegiatan Terbaru SMK BIMA</p>
+</div>
+<div class="container section">
+<div class="row">
+<div class="col-md-4">
+<div class="berita-card">
+<img src="galeri/ppdb.jpeg">
+<div class="berita-body">
+<h3>PPDB 2026/2027 Dibuka</h3>
+<p>
+Pendaftaran peserta didik baru SMK BIMA
+resmi dibuka untuk tahun ajaran 2026/2027.
+</p>
+<button class="btn btn-bima"
+data-toggle="modal"
+data-target="#berita1">
+Baca Selengkapnya
+</button>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+    <div class="berita-card">
+        <img src="galeri/berta.jpeg" alt="Turnamen">
+        <div class="berita-body">
+            <h3>Juara Turnamen Antar Sekolah</h3>
+            <p>
+                Tim SMK BIMA berhasil meraih prestasi
+                membanggakan pada ajang turnamen antar
+                sekolah dan membawa pulang gelar juara.
+            </p>
+            <button class="btn btn-bima"
+                    data-toggle="modal"
+                    data-target="#berita2">
+                Baca Selengkapnya
+            </button>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="berita-card">
+        <img src="galeri/bertapra.jpeg" alt="Pramuka">
+        <div class="berita-body">
+            <h3>Kegiatan Pramuka SMK BIMA</h3>
+            <p>
+                Pramuka menjadi salah satu kegiatan
+                unggulan yang membentuk karakter,
+                kedisiplinan, dan kepemimpinan siswa.
+            </p>
+            <button class="btn btn-bima"
+                    data-toggle="modal"
+                    data-target="#berita3">
+                Baca Selengkapnya
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="berita1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close"
+                        data-dismiss="modal">
+                    &times;
+                </button>
+                <h4>PPDB 2026/2027 Dibuka</h4>
+            </div>
+            <div class="modal-body">
+                <img src="galeri/ppdb.jpeg">
+                <p>
+                    Penerimaan Peserta Didik Baru (PPDB)
+                    SMK Swasta Baabul Ilmil Marhami (BIMA)
+                    Tahun Ajaran 2026/2027 resmi dibuka.
+
+                    Sekolah memberikan kesempatan kepada
+                    lulusan SMP/MTs untuk bergabung dan
+                    mengembangkan potensi akademik maupun
+                    keterampilan sesuai bidang keahlian.
+
+                    Proses pendaftaran dilakukan secara
+                    terbuka, transparan, dan mudah diakses.
+                    Calon peserta didik cukup melengkapi
+                    persyaratan administrasi yang telah
+                    ditentukan oleh panitia.
+
+                    Dengan tenaga pendidik yang profesional,
+                    fasilitas yang memadai, dan berbagai
+                    kegiatan pengembangan karakter, SMK BIMA
+                    siap mencetak generasi yang berilmu,
+                    berakhlak mulia, serta siap menghadapi
+                    dunia kerja maupun pendidikan lanjutan.
+
+                    Segera daftarkan diri Anda dan jadilah
+                    bagian dari keluarga besar SMK BIMA.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="berita2">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close"
+                        data-dismiss="modal">
+                    &times;
+                </button>
+                <h4>Juara Turnamen Antar Sekolah</h4>
+            </div>
+            <div class="modal-body">
+                <img src="galeri/berta.jpeg" alt="Turnamen">
+                <h3 class="text-center text-primary">
+                    Tim SMK BIMA Raih Prestasi Membanggakan
+                </h3>
+                <p>
+                    SMK Swasta Baabul Ilmil Marhami (BIMA)
+                    kembali menorehkan prestasi yang
+                    membanggakan melalui ajang turnamen
+                    antar sekolah yang diikuti oleh berbagai
+                    peserta dari beberapa sekolah.
+
+                    Dalam kompetisi tersebut, tim SMK BIMA
+                    menunjukkan semangat juang yang tinggi,
+                    kerja sama yang solid, serta kemampuan
+                    yang sangat baik selama pertandingan
+                    berlangsung.
+
+                    Sejak babak penyisihan hingga babak final,
+                    para siswa tampil percaya diri dan mampu
+                    mengalahkan lawan-lawannya dengan hasil
+                    yang memuaskan. Berkat kerja keras dan
+                    latihan yang disiplin, tim berhasil
+                    meraih gelar juara dan mengharumkan nama
+                    sekolah.
+
+                    Prestasi ini merupakan bukti bahwa siswa
+                    SMK BIMA tidak hanya unggul dalam bidang
+                    akademik, tetapi juga mampu bersaing dan
+                    berprestasi dalam bidang non-akademik.
+
+                    Kepala sekolah, guru, orang tua, dan
+                    seluruh warga sekolah memberikan apresiasi
+                    yang tinggi atas pencapaian tersebut.
+                    Diharapkan keberhasilan ini dapat menjadi
+                    motivasi bagi seluruh siswa untuk terus
+                    mengembangkan bakat, meningkatkan
+                    kemampuan, dan meraih prestasi yang lebih
+                    tinggi di masa mendatang.
+
+                    Selamat kepada seluruh anggota tim yang
+                    telah berjuang dengan penuh semangat dan
+                    dedikasi. Semoga prestasi ini menjadi awal
+                    dari berbagai keberhasilan lainnya untuk
+                    SMK BIMA.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="berita3">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close"
+                        data-dismiss="modal">
+                    &times;
+                </button>
+                <h4>Kegiatan Pramuka SMK BIMA</h4>
+            </div>
+            <div class="modal-body">
+                <img src="galeri/bertapra.jpeg" alt="Pramuka">
+                <h3 class="text-center text-primary">
+                    Pramuka Membentuk Karakter dan Kepemimpinan
+                </h3>
+                <p>
+                    Kegiatan Pramuka merupakan salah satu
+                    ekstrakurikuler unggulan di SMK Swasta
+                    Baabul Ilmil Marhami (BIMA) yang bertujuan
+                    untuk membentuk karakter siswa yang
+                    disiplin, mandiri, bertanggung jawab,
+                    dan memiliki jiwa kepemimpinan.
+
+                    Dalam setiap kegiatan, para anggota
+                    Pramuka mendapatkan berbagai materi dan
+                    pelatihan seperti baris-berbaris,
+                    tali-temali, sandi Pramuka, pertolongan
+                    pertama, serta berbagai permainan edukatif
+                    yang melatih kerja sama tim.
+
+                    Selain meningkatkan keterampilan,
+                    kegiatan Pramuka juga mengajarkan nilai
+                    kebersamaan, gotong royong, kepedulian
+                    terhadap sesama, serta rasa cinta tanah
+                    air yang tinggi.
+
+                    Para siswa mengikuti kegiatan dengan
+                    penuh semangat dan antusias. Melalui
+                    berbagai latihan dan kegiatan lapangan,
+                    peserta didik belajar menghadapi
+                    tantangan, menyelesaikan masalah, dan
+                    mengambil keputusan dengan baik.
+
+                    Sekolah terus mendukung kegiatan Pramuka
+                    sebagai sarana pembentukan karakter
+                    generasi muda yang berprestasi,
+                    berakhlak mulia, dan siap menghadapi
+                    tantangan masa depan.
+
+                    Dengan adanya kegiatan Pramuka,
+                    diharapkan seluruh siswa dapat menjadi
+                    pribadi yang lebih percaya diri,
+                    bertanggung jawab, serta mampu
+                    memberikan kontribusi positif bagi
+                    lingkungan sekolah maupun masyarakat.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+    <div class="berita-card">
+        <img src="galeri/berita1.jpeg" alt="MPLS">
+        <div class="berita-body">
+            <h3>MPLS Tahun Ajaran Baru</h3>
+            <p>
+                Masa Pengenalan Lingkungan Sekolah
+                menjadi kegiatan awal bagi peserta
+                didik baru untuk mengenal sekolah.
+            </p>
+            <a href="#"
+               class="btn btn-bima">
+               Baca Selengkapnya
+            </a>
+        </div>
+    </div>
+</div>
+<div class="col-md-6">
+    <div class="berita-card">
+        <img src="galeri/berita2.jpeg" alt="Pendidikan">
+        <div class="berita-body">
+            <h3>Program Pendidikan Berkualitas</h3>
+            <p>
+                SMK BIMA terus meningkatkan mutu
+                pendidikan melalui berbagai program
+                pembelajaran yang inovatif.
+            </p>
+            <a href="#"
+               class="btn btn-bima">
+               Baca Selengkapnya
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+          <div class="container">
+         <div class="row">
+        <div class="col-md-4">
+    <img src="galeri/logo.jpeg">
+        <h4>SMK BIMA</h4>
+                <p>
+                Mewujudkan Generasi Siap Kerja,
+                Siap Berkarya dan Berakhlak Mulia.
+                </p>
+            </div>
+        <div class="col-md-4">
+        <h4>Sosial Media</h4>
+<p>Facebook : Yaspend BIMA</p>
+<p>Instagram : Baabul Ilmil Marhami BIMA</p>
+<p>YouTube : Yayasan BIMA Official</p>
+</div>
+    <div class="col-md-4">
+    <h4>Kontak</h4>
+    <p> 081379116076</p>
+    <p> baabulilmilmarhami@gmail.com</p>
+    <p> Deli Serdang, Sumatera Utara</p>
+    </div>
+  </div>
+<hr>
+<p class="text-center">
+© 2010 SMK Swasta Baabul Ilmil Marhami (BIMA) 
+</p>
+</div>
+</footer>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

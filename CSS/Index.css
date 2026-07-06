@@ -1,0 +1,172 @@
+body{
+    padding-top:70px;
+    font-family:Arial, sans-serif;
+}
+/* Navbar */
+.navbar{
+    background:#0d47a1 !important;
+    border:none;
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+}
+
+.navbar-brand img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+}
+
+.navbar-brand{
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+}
+/* Running Text */
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+/* Hero */
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('sekolah.jpeg');
+    background-size:cover;
+    background-position:center;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+.hero p{
+    font-size:20px;
+}
+/* Button */
+.btn-bima{
+    background:#ff9800;
+    color:white;
+    border:none;
+}
+
+.btn-bima:hover{
+    background:#e68900;
+    color:white;
+}
+
+/* Section */
+.section{
+    padding:60px 0;
+}
+/* Foto Kepala Sekolah */
+.foto-kepsek img{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #1565c0;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+/* Card */
+.card-modern{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+/* Visi Misi */
+.panel{
+    border-radius:10px;
+}
+/* Footer */
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:40px 0;
+}
+footer img{
+    width:80px;
+}
+
+footer h4{
+    margin-top:15px;
+}
+/* Form Pencarian */
+.navbar-form{
+    margin-top:8px;
+}
+.navbar-form .form-control{
+    border-radius:20px;
+    border:none;
+    width:180px;
+}
+.navbar-form .btn{
+    border-radius:20px;
+    border:none;
+    background:#ff9800;
+    color:white;
+}
+.navbar-form .btn:hover{
+    background:#e68900;
+}
+.navbar-toggle{
+    border:1px solid rgb(255, 255, 255);
+}
+
+.navbar-toggle .icon-bar{
+    background:rgb(255, 255, 255);
+}
+    body{
+        padding-top:70px;
+    }
+  /* Navbar */
+.navbar{
+    background:#0d47a1 !important;
+    border:none;
+}
+
+/* Warna menu */
+.navbar-nav > li > a{
+    color:white !important;
+    font-weight:bold;
+}
+
+/* Hover menu */
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+
+/* Dropdown */
+.dropdown-menu{
+    background:white;
+}
+
+.dropdown-menu > li > a{
+    color:#333 !important;
+}
+
+.dropdown-menu > li > a:hover{
+    background:#1565c0 !important;
+    color:rgb(240, 233, 233) !important;
+}
+
+/* Logo */
+.navbar-brand{
+    color:rgb(235, 230, 230) !important;
+    font-weight:bold;
+}

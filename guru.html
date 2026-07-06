@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dewan Guru & Staf | SMK BIMA</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="gambar/logo.jpeg">
+<style>
+body{
+    padding-top:70px;
+    background:#f4f7fc;
+    font-family:Arial, sans-serif;
+}
+.navbar{
+    background:#0d47a1;
+    border:none;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+}
+.navbar-brand img{
+    width:40px;
+    height:40px;
+    border-radius:0;
+    margin-right:10px;
+}
+.navbar-nav > li > a{
+    color:white !important;
+    font-weight:bold;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+.dropdown-menu{
+    background:white;
+}
+.dropdown-menu > li > a{
+    color:#333 !important;
+}
+.dropdown-menu > li > a:hover{
+    background:#1565c0 !important;
+    color:white !important;
+}
+.banner{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('galeri/gambarSekolah.jpeg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.banner h1{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.statistik{
+    margin-top:-50px;
+}
+.stat-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+.stat-card h2{
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+.kepsek{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+    margin:30px 0;
+}
+.kepsek img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #0d47a1;
+}
+
+.guru-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    margin-bottom:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+.guru-card:hover{
+    transform:translateY(-8px);
+}
+.guru-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #0d47a1;
+}
+.guru-card h4{
+    color:#0d47a1;
+    margin-top:15px;
+    font-weight:bold;
+}
+.jabatan{
+    background:#0d47a1;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    display:inline-block;
+}
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:50px 0;
+    margin-top:50px;
+}
+
+footer img{
+    width:80px;
+    height:80px;
+    border-radius:0;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+<div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse" data-target="#menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="Index.html">
+            <img src="galeri/logo.jpeg">
+            SMK BIMA
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Profil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                    </ul>
+                </li>
+                <li><a href="Guru.html">Guru & Staf</a></li>
+                <li><a href="Berita.html">Berita</a></li>
+                <li><a href="Galeri.html">Galeri</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Selengkapnya <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Ekstrakurikuler.Html">ekstrakuler</a></li>
+                        <li><a href="PPDB.html">PPDB</a></li>
+                        <li><a href="Agenda sekolah.html">Agenda Sekolah</a></li>
+                    </ul>
+                </li>
+            </ul>
+</nav>
+<div class="running-text">
+    <marquee>
+        SELAMAT DATANG DI HALAMAN GURU & STAF SMK SWASTA BAABUL ILMIL MARHAMI (BIMA)
+    </marquee>
+</div>
+<div class="banner">
+    <h1>DEWAN GURU & STAF</h1>
+    <p>SMK Swasta Baabul 'Ilmil Marhami (BIMA)</p>
+</div>
+<div class="container">
+<div class="row statistik">
+<div class="col-md-4">
+<div class="stat-card">
+<h2>13</h2>
+    <p>Guru & Staf</p>
+ </div>
+</div>
+    <div class="col-md-4">
+    <div class="stat-card">
+    <h2>1</h2>
+    <p>Kepala Sekolah</p>
+ </div>
+  </div>
+    <div class="col-md-4">
+    <div class="stat-card">
+    <h2>3</h2>
+    <p>Program Keahlian</p>
+    </div>
+    </div>
+</div>
+<div class="kepsek">
+<img src="galeri/ketua yayasan.jpeg">
+<h2>PONISIH S.Pd</h2>
+<h4>Ketua Yayasan</h4>
+<p>
+Memimpin dan mengembangkan SMK BIMA menuju sekolah unggul dan berkualitas.
+</p>
+</div>
+<h2 class="text-center"><b>DEWAN GURU & TENAGA KEPENDIDIKAN</b></h2>
+<br>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/joko.jpeg">
+    <h4>Joko Sunaryo, S.Sos</h4>
+    <div class="jabatan">Guru Produktif TSM</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/iyus.jpeg">
+    <h4>Fairun Yusnaidi, B.Sc</h4>
+    <div class="jabatan">Guru Teknik Otomotif</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/guru.jpg">
+    <h4>Tina, S.Pd</h4>
+    <div class="jabatan">Guru Muatan Nasional</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/andre.jpeg">
+    <h4>Andre Efendianto, S.Pd</h4>
+    <div class="jabatan">Guru RPL </div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/ibuH.jpeg">
+    <h4>Sri Darmayanti, S.Pd</h4>
+    <div class="jabatan">Guru Kewirausahaan</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/suningsih.jpeg">
+    <h4>Suningsih, S.Pd</h4>
+    <div class="jabatan">Guru PPKN</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/tina.jpeg">
+    <h4>Rina Agustina</h4>
+    <div class="jabatan">Guru PAI</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/guru8.jpg">
+    <h4>Sunarno, S.Pd</h4>
+    <div class="jabatan">Guru Bahasa Indonesia</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/guru9.jpg">
+    <h4>Chissy</h4>
+    <div class="jabatan">Guru Bahasa Inggris</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/guru10.jpg">
+    <h4>Imam, S.Pd</h4>
+    <div class="jabatan">Guru TKJ</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/guru.jpg">
+    <h4>Chimy, S.Pd</h4>
+    <div class="jabatan">Tenaga Kependidikan</div>
+    </div>
+    </div>
+
+    <div class="col-md-4">
+    <div class="guru-card">
+    <img src="galeri/juanda.jpeg">
+    <h4>Muhammad Juanda, S.Kom</h4>
+    <div class="jabatan">Operator Sekolah</div>
+    </div>
+    </div>
+
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<img src="galeri/logo.jpeg">
+            <h4>SMK BIMA</h4>
+            <p>
+            Mewujudkan Generasi Siap Kerja,
+            Siap Berkarya dan Berakhlak Mulia.
+            </p>
+            </div>
+
+    <div class="col-md-4">
+        <h4>Sosial Media</h4>
+        <p>Facebook : Yaspend BIMA</p>
+        <p>Instagram : Baabul Ilmil Marhami BIMA</p>
+        <p>YouTube : Yayasan BIMA Official</p>
+    </div>
+
+    <div class="col-md-4">
+        <h4>Kontak</h4>
+
+<p> 081379116076</p>
+<p> baabulilmilmarhami@gmail.com</p>
+<p> Deli Serdang, Sumatera Utara</p>
+</div>
+</div>
+<hr>
+<p class="text-center">
+© 2010 SMK Swasta Baabul Ilmil Marhami (BIMA) 
+</p>
+</div>
+</footer>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

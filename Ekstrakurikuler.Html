@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ekstrakurikuler | SMK Swasta Baabul Ilmil Marhami (BIMA)</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="logo.jpeg">
+<style>
+body{
+    padding-top:70px;
+    background:#f4f7fc;
+    font-family:Arial,sans-serif;
+}
+.navbar{
+    background:#0d47a1;
+    border:none;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+.navbar-brand{
+    display:flex !important;
+    align-items:center;
+    color:white !important;
+    font-weight:bold;
+    height:50px;
+}
+
+.navbar-brand img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    margin-top:-5px;
+}
+.navbar-nav>li>a{
+    color:white !important;
+    font-weight:bold;
+}
+
+.navbar-nav>.active>a,
+.navbar-nav>li>a:hover{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+
+.navbar-toggle{
+    border:1px solid white;
+}
+
+.navbar-toggle .icon-bar{
+    background:white;
+}
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+.header-ekskul{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('galeri/gambarSekolah.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    padding:120px 20px;
+    text-align:center;
+    color:white;
+}
+
+.header-ekskul h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.header-ekskul p{
+    font-size:20px;
+}
+.section{
+    padding:60px 0;
+}
+.ekskul-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:30px;
+    transition:.3s;
+}
+
+.ekskul-card:hover{
+    transform:translateY(-8px);
+}
+
+.ekskul-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.ekskul-body{
+    padding:20px;
+    text-align:center;
+}
+
+.ekskul-body h3{
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+.btn-ekskul{
+    background:#0d47a1;
+    color:white;
+}
+
+.btn-ekskul:hover{
+    background:#1565c0;
+    color:white;
+}
+
+.modal-header{
+    background:#0d47a1;
+    color:white;
+}
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:50px 0;
+    margin-top:40px;
+}
+
+footer img{
+    width:80px;
+}
+</style>
+</head>
+<nav class="navbar navbar-fixed-top">
+<div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+        data-toggle="collapse" data-target="#menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="Index.html">
+            <img src="galeri/logo.jpeg">
+            SMK BIMA
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Profil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                    </ul>
+                </li>
+                <li><a href="Guru.html">Guru & Staf</a></li>
+                <li><a href="Berita.html">Berita</a></li>
+                <li><a href="Galeri.html">Galeri</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Selengkapnya <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Ekstrakurikuler.Html">ekstrakuler</a></li>
+                        <li><a href="PPDB.html">PPDB</a></li>
+                        <li><a href="Agenda sekolah.html">Agenda Sekolah</a></li>
+                    </ul>
+                </li>
+            </ul>
+</nav>
+<div class="running-text">
+<marquee>SELAMAT DATANG DI HALAMAN EKSTRAKURIKULER SMK SWASTA BAABUL ILMIL MARHAMI (BIMA)</marquee>
+</div>
+<div class="header-ekskul">
+<h1>EKSTRAKURIKULER</h1>
+<p>Mengembangkan Minat, Bakat dan Karakter Siswa</p>
+</div>
+<div class="container section">
+                    <hr>
+                    <div class="row">
+                <div class="col-md-3">
+                    <div class="ekskul-card">
+                    <img src="galeri/prmk.jpeg">
+                    <div class="ekskul-body">
+                    <h3>Pramuka</h3>
+                    <p>
+                    Membentuk karakter disiplin,
+                    mandiri dan bertanggung jawab.
+                    </p>
+                        <button class="btn btn-ekskul"
+                        data-toggle="modal"
+                        data-target="#pramuka">
+                        Selengkapnya</button>
+
+</div>
+        </div>
+</div>
+                <div class="col-md-3">
+                <div class="ekskul-card">
+                <img src="galeri/ftsl.jpeg">
+                <div class="ekskul-body">
+                <h3>Futsal</h3>
+                <p>
+                Mengembangkan bakat olahraga
+                dan kerja sama tim.
+                </p>
+                <button class="btn btn-ekskul"
+                data-toggle="modal"
+                data-target="#futsal">
+                Selengkapnya
+     </button>
+        </div>
+            </div>
+                </div>
+                <div class="col-md-3">
+                <div class="ekskul-card">
+                <img src="galeri/lingkungan.jpeg">
+                <div class="ekskul-body">
+                <h3>Peduli Lingkungan</h3>
+                <p>Melatih kepedulian terhadap
+                lingkungan sekolah.</p>
+                <button class="btn btn-ekskul"
+                data-toggle="modal"
+                data-target="#lingkungan">
+                Selengkapnya
+         </button>
+</div>
+         </div>
+                </div>
+        <div class="col-md-3">
+        <div class="ekskul-card">
+        <img src="galeri/beritaMulok.jpeg">
+        <div class="ekskul-body">
+        <h3>Rohis</h3>
+        <p>
+        Membentuk siswa yang religius
+        dan berakhlak mulia.
+        </p>
+        <button class="btn btn-ekskul"
+        data-toggle="modal"
+        data-target="#rohis">
+        Selengkapnya
+</button>
+    </div>
+        </div>
+</div>
+</div>
+            <div class="row">
+            <div class="col-md-3">
+            <div class="ekskul-card">
+            <img src="galeri/nari.jpeg">
+            <div class="ekskul-body">
+            <h3>Tari</h3>
+            <p>
+            Mengembangkan bakat seni
+            dan kreativitas siswa.
+            </p>
+            <button class="btn btn-ekskul"
+            data-toggle="modal"
+            data-target="#tari">
+            Selengkapnya
+            </button>
+        </div>
+    </div>
+</div>
+                <div class="col-md-3">
+                <div class="ekskul-card">
+                <img src="galeri/Paskibra.jpeg">
+                <div class="ekskul-body">
+                <h3>Paskibra</h3>
+                <p>
+                Melatih disiplin,
+                kepemimpinan dan tanggung jawab.
+                </p>
+                <button class="btn btn-ekskul"
+                data-toggle="modal"
+                data-target="#paskibra">
+                Selengkapnya
+            </button>
+        </div>
+     </div>
+</div>
+        <div class="col-md-3">
+        <div class="ekskul-card">
+        <img src="galeri/alqur'an.jpeg">
+        <div class="ekskul-body">
+        <h3>Membaca Al-Qur'an</h3>
+        <p>
+        Meningkatkan kemampuan membaca
+        Al-Qur'an dengan baik.
+        </p>
+        <button class="btn btn-ekskul"
+        data-toggle="modal"
+        data-target="#alquran">
+        Selengkapnya
+        </button>
+    </div>
+</div>
+    </div>
+        <div class="col-md-3">
+        <div class="ekskul-card">
+            <img src="galeri/pidato.jpeg">
+            <div class="ekskul-body">
+            <h3>Pidato</h3>
+            <p>
+            Melatih keberanian berbicara
+            di depan umum.
+            </p>
+            <button class="btn btn-ekskul"
+            data-toggle="modal"
+            data-target="#pidato">
+            Selengkapnya
+     </button>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="pramuka">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Pramuka</h4>
+</div>
+<div class="modal-body">
+Pramuka merupakan kegiatan ekstrakurikuler yang bertujuan
+membentuk karakter disiplin, mandiri, bertanggung jawab,
+serta memiliki jiwa kepemimpinan dan kerja sama.
+</div>
+
+</div>
+</div>
+</div>
+<div class="modal fade" id="futsal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Futsal</h4>
+</div>
+<div class="modal-body">
+Futsal adalah kegiatan olahraga yang bertujuan meningkatkan
+kebugaran jasmani, sportivitas, kerja sama tim, dan kemampuan
+bermain sepak bola dalam ruangan.
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="lingkungan">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Peduli Lingkungan</h4>
+</div>
+
+<div class="modal-body">
+Ekstrakurikuler Peduli Lingkungan bertujuan menumbuhkan
+kesadaran siswa untuk menjaga kebersihan, keindahan,
+dan kelestarian lingkungan sekolah maupun masyarakat.
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="rohis">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Rohis</h4>
+</div>
+
+<div class="modal-body">
+Rohis merupakan wadah pembinaan keagamaan Islam yang
+bertujuan meningkatkan keimanan, ketakwaan, dan akhlak
+mulia siswa dalam kehidupan sehari-hari.
+</div>
+
+</div>
+</div>
+</div>
+<div class="modal fade" id="tari">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Tari</h4>
+</div>
+
+<div class="modal-body">
+Tari adalah seni gerak tubuh yang dilakukan secara ritmis
+dan teratur untuk mengekspresikan perasaan, budaya,
+serta kreativitas melalui gerakan yang indah.
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="paskibra">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Paskibra</h4>
+</div>
+
+<div class="modal-body">
+Paskibra adalah kegiatan ekstrakurikuler yang melatih
+kedisiplinan, kepemimpinan, tanggung jawab, kekompakan,
+serta kemampuan baris-berbaris siswa.
+</div>
+
+</div>
+</div>
+</div>
+<div class="modal fade" id="alquran">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Membaca Al-Qur'an</h4>
+</div>
+
+<div class="modal-body">
+Ekstrakurikuler Membaca Al-Qur'an bertujuan meningkatkan
+kemampuan membaca Al-Qur'an dengan baik dan benar sesuai
+kaidah tajwid serta menanamkan nilai-nilai keislaman.
+</div>
+
+</div>
+</div>
+</div>
+<div class="modal fade" id="pidato">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<div class="modal-header">
+<button class="close" data-dismiss="modal">&times;</button>
+<h4>Pidato</h4>
+</div>
+
+<div class="modal-body">
+Pidato merupakan kegiatan yang melatih keberanian,
+kepercayaan diri, kemampuan berbicara di depan umum,
+serta keterampilan komunikasi siswa.
+</div>
+
+</div>
+</div>
+</div>
+<footer>
+          <div class="container">
+         <div class="row">
+        <div class="col-md-4">
+    <img src="galeri/logo.jpeg">
+        <h4>SMK BIMA</h4>
+                <p>
+                Mewujudkan Generasi Siap Kerja,
+                Siap Berkarya dan Berakhlak Mulia.
+                </p>
+            </div>
+        <div class="col-md-4">
+        <h4>Sosial Media</h4>
+<p>Facebook : Yaspend BIMA</p>
+<p>Instagram : Baabul Ilmil Marhami BIMA</p>
+<p>YouTube : Yayasan BIMA Official</p>
+</div>
+    <div class="col-md-4">
+    <h4>Kontak</h4>
+    <p> 081379116076</p>
+    <p> baabulilmilmarhami@gmail.com</p>
+    <p> Deli Serdang, Sumatera Utara</p>
+    </div>
+  </div>
+<hr>
+<p class="text-center">
+© 2010 SMK Swasta Baabul Ilmil Marhami (BIMA) 
+</p>
+</div>
+</footer>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

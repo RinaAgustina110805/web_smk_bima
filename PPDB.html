@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PPDB Online - SMK BIMA</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="logo.jpeg">
+<style>
+body{
+    padding-top:70px;
+    background:#f5f7fa;
+    font-family:Arial, sans-serif;
+}
+.navbar{
+    background:#0d47a1 !important;
+    border:none;
+}
+
+.navbar-brand{
+    color:white !important;
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+}
+
+.navbar-brand img{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+}
+
+.navbar-nav > li > a{
+    color:white !important;
+    font-weight:bold;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+
+.dropdown-menu{
+    background:white;
+}
+
+.dropdown-menu > li > a{
+    color:#333 !important;
+}
+
+.dropdown-menu > li > a:hover{
+    background:#1565c0 !important;
+    color:white !important;
+}
+
+.navbar-toggle{
+    border:1px solid white;
+}
+
+.navbar-toggle .icon-bar{
+    background:white;
+}
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('galeri/gambarSekolah.jpeg');
+
+    background-size:cover;
+    background-position:center;
+
+    min-height:500px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.btn-daftar{
+    background:#ff9800;
+    color:white;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-daftar:hover{
+    background:#e68900;
+    color:white;
+}
+
+.section{
+    padding:60px 0;
+}
+
+.section-title{
+    text-align:center;
+    color:#0d47a1;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+.section-title:after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:#ff9800;
+    margin:10px auto;
+}
+.card-modern{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:40px 0;
+    margin-top:50px;
+}
+
+footer img{
+    width:80px;
+}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Index.html">
+                <img src="galeri/logo.jpeg">
+                SMK BIMA
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+            <!-- MENU KIRI -->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Profil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                    </ul>
+                </li>
+                <li><a href="Guru.html">Guru & Staf</a></li>
+                <li><a href="Berita.html">Berita</a></li>
+                <li><a href="Galeri.html">Galeri</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Selengkapnya <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Ekstrakurikuler.Html">ekstrakuler</a></li>
+                        <li><a href="PPDB.html">PPDB</a></li>
+                        <li><a href="Agenda sekolah.html">Agenda Sekolah</a></li>
+                    </ul>
+                </li>
+            </ul>
+</nav>
+<div class="running-text">
+    <marquee>
+        SELAMAT DATANG DI HALAMAN PPDB SMK SWASTA BAABUL ILMIL MARHAMI (BIMA)
+    </marquee>
+</div>
+<div class="hero">
+<div class="container">
+<h1>PPDB ONLINE 2026/2027</h1>
+<p>Penerimaan Peserta Didik Baru<br>SMK Swasta BIMA</p>
+<br>
+<a href="#form" class="btn-daftar">DAFTAR SEKARANG</a>
+</div>
+</div>
+
+<div class="container section">
+<div class="row text-center">
+
+<div class="col-md-3">
+<div class="card-modern">
+<h2>150</h2>
+<p>Kuota Siswa</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-modern">
+<h2>3</h2>
+<p>Jurusan</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-modern">
+<h2>13+</h2>
+<p>Guru</p>
+</div>
+</div>
+
+<div class="col-md-3">
+<div class="card-modern">
+<h2>100%</h2>
+<p>Pembinaan Karakter</p>
+</div>
+</div>
+
+</div>
+
+<h2 class="section-title">Gelombang Pendaftaran</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>Gelombang 1</h3>
+<p>Jan - Mar 2026</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>Gelombang 2</h3>
+<p>Apr - Jun 2026</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>Gelombang 3</h3>
+<p>Jul - Agu 2026</p>
+</div>
+</div>
+
+</div>
+<h2 class="section-title">Persyaratan</h2>
+<div class="card-modern">
+<ul>
+<li>Ijazah SMP/MTs</li>
+<li>Kartu Keluarga</li>
+<li>Akta Kelahiran</li>
+<li>KTP Orang Tua</li>
+<li>Pas Foto 3x4</li>
+</ul>
+</div>
+<h2 class="section-title">Program Keahlian</h2>
+<div class="row">
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>RPL</h3>
+<p>Rekayasa Perangkat Lunak</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>TKJ</h3>
+<p>Teknik Komputer dan Jaringan</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-modern text-center">
+<h3>TSM</h3>
+<p>Teknik Sepeda Motor</p>
+</div>
+</div>
+
+</div>
+
+<h2 class="section-title" id="form">Formulir Pendaftaran</h2>
+
+<div class="card-modern">
+
+<form>
+
+<div class="form-group">
+<label>Nama Lengkap</label>
+<input class="form-control" type="text">
+</div>
+
+<div class="form-group">
+<label>Jenis Kelamin</label>
+<select class="form-control">
+<option>Laki-laki</option>
+<option>Perempuan</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Alamat</label>
+<textarea class="form-control" rows="3"></textarea>
+</div>
+
+<div class="form-group">
+<label>Asal Sekolah</label>
+<input class="form-control" type="text">
+</div>
+
+<div class="form-group">
+<label>Pilih Jurusan</label>
+<select class="form-control">
+<option>RPL</option>
+<option>TKJ</option>
+<option>TSM</option>
+</select>
+</div>
+
+<br>
+
+<button class="btn btn-success btn-lg">Daftar</button>
+<button class="btn btn-danger btn-lg">Reset</button>
+
+</form>
+
+</div>
+
+<h2 class="section-title">Kontak Panitia</h2>
+
+<div class="card-modern text-center">
+
+<h4>0812-1556-7021</h4>
+<p>Email: yaspendbimaa@gmail.com</p>
+<p>Deli Serdang, Sumatera Utara</p>
+
+</div>
+
+</div>
+
+<footer>
+          <div class="container">
+         <div class="row">
+        <div class="col-md-4">
+    <img src="galeri/logo.jpeg">
+        <h4>SMK BIMA</h4>
+                <p>
+                Mewujudkan Generasi Siap Kerja,
+                Siap Berkarya dan Berakhlak Mulia.
+                </p>
+            </div>
+        <div class="col-md-4">
+        <h4>Sosial Media</h4>
+<p>Facebook : Yaspend BIMA</p>
+<p>Instagram : Baabul Ilmil Marhami BIMA</p>
+<p>YouTube : Yayasan BIMA Official</p>
+</div>
+    <div class="col-md-4">
+    <h4>Kontak</h4>
+    <p> 081379116076</p>
+    <p> baabulilmilmarhami@gmail.com</p>
+    <p> Deli Serdang, Sumatera Utara</p>
+    </div>
+  </div>
+<hr>
+<p class="text-center">
+© 2010 SMK Swasta Baabul Ilmil Marhami (BIMA) 
+</p>
+</div>
+</footer>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

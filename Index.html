@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMK Swasta Baabul Ilmil Marhami (BIMA)</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="galeri/logo.jpeg">
+<style>
+body{
+    padding-top:70px;
+    background:#f4f7fc;
+    font-family:Arial,sans-serif;
+}
+.navbar{
+    background:#0d47a1;
+    border:none;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+}
+
+.navbar-brand img{
+    width:45px;
+    height:45px;
+    margin-right:10px;
+}
+
+.navbar-nav>li>a{
+    color:white !important;
+    font-weight:bold;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>.active>a{
+    background:#1565c0 !important;
+    color:#ffd54f !important;
+}
+
+.dropdown-menu>li>a:hover{
+    background:#1565c0 !important;
+    color:white !important;
+}
+
+.navbar-toggle{
+    border:1px solid white;
+}
+
+.navbar-toggle .icon-bar{
+    background:white;
+}
+.running-text{
+    background:#1565c0;
+    color:white;
+    padding:12px;
+    font-size:17px;
+    font-weight:bold;
+}
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url('galeri/gambarSekolah.jpeg');
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+    text-align:center;
+    padding:150px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn-bima{
+    background:#ffc107;
+    color:#000;
+    font-weight:bold;
+    border:none;
+}
+
+.btn-bima:hover{
+    background:#ffca28;
+}
+
+.section{
+    padding:60px 0;
+}
+
+.card-modern{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:30px;
+}
+
+.img-thumbnail{
+    border:5px solid #0d47a1;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+.section-title p{
+    color:#666;
+    font-size:16px;
+}
+
+.thumbnail{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+    margin-bottom:25px;
+}
+
+.thumbnail:hover{
+    transform:translateY(-8px);
+}
+
+.thumbnail img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.thumbnail .caption{
+    text-align:center;
+    padding:15px;
+}
+
+.thumbnail .caption h4{
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    padding:50px 0;
+    margin-top:40px;
+}
+
+footer img{
+    width:80px;
+}
+@media(max-width:768px){
+
+.hero h1{
+    font-size:35px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.thumbnail img{
+    height:200px;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+           <a class="navbar-brand" href="Index.html">
+            <img src="galeri/logo.jpeg">
+            SMK BIMA
+        </a>
+    </div>
+    <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Profil <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                    </ul>
+                </li>
+                <li><a href="Guru.html">Guru & Staf</a></li>
+                <li><a href="Berita.html">Berita</a></li>
+                <li><a href="Galeri.html">Galeri</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Selengkapnya <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Ekstrakurikuler.Html">ekstrakuler</a></li>
+                        <li><a href="PPDB.html">PPDB</a></li>
+                        <li><a href="Agenda sekolah.html">Agenda Sekolah</a></li>
+                    </ul>
+                </li>
+            </ul>
+</nav>
+<div class="running-text">
+    <marquee>
+        SELAMAT DATANG DI WEBSITE RESMI
+        SMK SWASTA BAABUL ILMIL MARHAMI (BIMA)
+    </marquee>
+</div>
+<div class="hero">
+    <div class="container">
+        <h1>SMK SWASTA BIMA</h1>
+        <p>
+            Mencetak Generasi Berilmu,
+            Beriman, Berakhlak Mulia,
+            dan Siap Kerja
+        </p>
+        <br>
+        <a href="galeri/gambarSekolah.jpeg"
+           class="btn btn-bima btn-lg">
+            Lihat Profil Sekolah
+        </a>
+    </div>
+</div>
+<div class="container section">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="galeri/kepalaSekolah.jpeg"
+                 class="img-circle img-thumbnail"
+                 style="width:250px;height:250px;object-fit:cover;">
+            <h3>
+                <b>GIRI SANTOSO, S.H</b>
+            </h3>
+            <p>Kepala Sekolah</p>
+        </div>
+        <div class="col-md-8">
+            <div class="card-modern">
+                <h2>Kata Sambutan Kepala Sekolah</h2>
+                <p align="justify">
+                    Assalamu'alaikum Warahmatullahi Wabarakatuh.
+                </p>
+
+                <p align="justify">
+                    Selamat datang di Website Resmi
+                    SMK Swasta Baabul Ilmil Marhami (BIMA).
+                    Website ini menjadi media informasi,
+                    komunikasi, dan publikasi sekolah
+                    kepada masyarakat luas.
+                </p>
+                <p align="justify">
+                    Kami berkomitmen untuk mencetak
+                    lulusan yang unggul, terampil,
+                    berkarakter, serta siap menghadapi
+                    dunia kerja dan pendidikan lanjutan.
+                </p>
+                <p align="justify">
+                    Semoga website ini dapat menjadi
+                    sarana yang bermanfaat bagi seluruh
+                    warga sekolah dan masyarakat.
+                </p>
+                <p>
+                    Wassalamu'alaikum Warahmatullahi Wabarakatuh.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container section">
+    <div class="section-title">
+        <h2>Galeri Kegiatan</h2>
+        <p>
+            Dokumentasi berbagai kegiatan
+            SMK Swasta Baabul Ilmil Marhami (BIMA)
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src="galeri/belajar.jpeg" alt="Kegiatan Belajar">
+                <div class="caption">
+                    <h4>Kegiatan Belajar</h4>
+                    <p>
+                        Aktivitas belajar mengajar siswa
+                        di dalam kelas bersama guru.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src="galeri/praktek.jpeg" alt="Praktik Siswa">
+                <div class="caption">
+                    <h4>Praktik Siswa</h4>
+                    <p>
+                        Kegiatan praktik untuk meningkatkan
+                        keterampilan dan kompetensi siswa.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src="galeri/menari.jpeg" alt="Ekstrakurikuler">
+                <div class="caption">
+                    <h4>Ekstrakurikuler</h4>
+                    <p>
+                        Pengembangan bakat siswa
+                        melalui kegiatan ekstrakurikuler.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnail">
+                <img src="galeri/prestas.jpeg" alt="Prestasi Siswa">
+                <div class="caption">
+                    <h4>Prestasi Siswa</h4>
+                    <p>
+                        Berbagai prestasi yang berhasil
+                        diraih oleh siswa SMK BIMA.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container section">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div style="
+                background:white;
+                padding:50px 30px;
+                border-radius:20px;
+                box-shadow:0 5px 25px rgba(0,0,0,.1);
+                text-align:center;
+            ">
+
+                <h2 style="
+                    color:#0d47a1;
+                    font-weight:bold;
+                    margin-bottom:20px;
+                ">
+                    Ayo Bergabung Bersama SMK BIMA
+                </h2>
+                <hr style="
+                    width:120px;
+                    border:2px solid #0d47a1;
+                    margin:auto;
+                    margin-bottom:25px;
+                ">
+                <p style="
+                    font-size:18px;
+                    color:#555;
+                    line-height:30px;
+                ">
+                    SMK Swasta Baabul Ilmil Marhami (BIMA)
+                    siap menjadi tempat terbaik untuk
+                    membentuk generasi yang unggul,
+                    berakhlak mulia, terampil,
+                    kreatif, dan siap menghadapi
+                    dunia kerja maupun pendidikan lanjutan.
+
+                </p>
+                <p style="
+                    font-size:17px;
+                    color:#777;
+                ">
+                    Segera daftarkan diri Anda dan raih
+                    masa depan yang lebih cerah bersama kami.
+                </p>
+                <br>
+                <a href="PPDB.html"
+                   class="btn btn-primary btn-lg"
+                   style="
+                   padding:12px 35px;
+                   font-weight:bold;
+                   border-radius:30px;
+                   ">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    Daftar Sekarang
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+          <div class="container">
+         <div class="row">
+        <div class="col-md-4">
+    <img src="galeri/logo.jpeg">
+        <h4>SMK BIMA</h4>
+                <p>
+                Mewujudkan Generasi Siap Kerja,
+                Siap Berkarya dan Berakhlak Mulia.
+                </p>
+            </div>
+        <div class="col-md-4">
+        <h4>Sosial Media</h4>
+<p>Facebook : Yaspend BIMA</p>
+<p>Instagram : Baabul Ilmil Marhami BIMA</p>
+<p>YouTube : Yayasan BIMA Official</p>
+</div>
+    <div class="col-md-4">
+    <h4>Kontak</h4>
+    <p> 081379116076</p>
+    <p> baabulilmilmarhami@gmail.com</p>
+    <p> Deli Serdang, Sumatera Utara</p>
+    </div>
+  </div>
+<hr>
+<p class="text-center">
+© 2010 SMK Swasta Baabul Ilmil Marhami (BIMA) 
+</p>
+</div>
+</footer>
+<script src="bootstrap/js/jQuery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
